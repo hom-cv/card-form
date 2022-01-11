@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    font-family: "Source Code Pro";
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(202, 202, 202);
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10%;
+}
+
+
+.card, .input--form {
+    background-color: whitesmoke;
+    border: solid black 1px;
+    border-radius: 30px;
+}
+
+.input--form {
+    height: 300px;
+    width: 200px;
+}
+
+.card {
+    width: 469px;
+    height: 313px;
+    display: flex;
+    background-image: url("./images/callmeifyougetlostid.png");
+    background-size: 469px 313px;
+    background-repeat: no-repeat;
+}
+
+.card--stamp {
+    position :absolute;
+    width: 120px;
+    transform: rotate(-20deg);
+    right: 450px;
+    top: 280px;
+}
+
+.card--pic {
+    height: 200px;
+    width: 175px;
+    object-fit: cover;
+    margin-top: 40px;
+    margin-left: 40px;
+    border: solid white 7px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+input {
+    width: auto;
+    height: 16px;
+    border: grey solid 1px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.card--text {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./images/logo.PNG");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+h1 {
+    font-size: 8px;
+    font-weight: 400;
+    margin-top: 25px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 8px;
+    text-align: center;
+    padding: 5px;
+}
+
+p, h3, h4 {
+    font-weight: 400;
+    font-size: 6px;
+    max-width: 190px;
+    overflow: hidden;
+}
+
+
+
+p {
+    white-space: nowrap;
+    padding-top: 15px;
+
+}
+
+h4 {
+    padding: 5px;
+}
+
+h3 {
+    padding: 0px;
+    text-align: left;
+}
+
+.signature--label {
+    text-align: right;
+    font-style: italic;
+}
+
+.card--signature {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding-top: 20px;
+    
+}
+
+.input--card {
+    position:relative;
+}
+
+h5 {
+    font-family: "Annie Use Your Telescope";
+    position: absolute;
+    text-align: left;
+}
+
+.output--user {
+    top: 160px;
+    left: 450px;
+}
+
+.output--dob {
+    top: 182;
+    left: 450px;
+}
+
+.output--place {
+    top: 204px;
+     left: 450px;
+}
+
+.output--type {
+    top: 226px;
+     left: 450px;
+}
+
+.output--sign {
+    font-family: "Parisienne";
+    font-size: 20px;
+    top: 328px;
+     left: 400px;
+}
