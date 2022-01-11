@@ -30,6 +30,7 @@ body {
 }
 
 .card {
+    position: relative;
     width: 938px;
     height: 626;
     display: flex;
@@ -129,39 +130,36 @@ h3 {
     
 }
 
-.input--card {
-    position:relative;
-}
-
 h5 {
-    font-family: "Annie Use Your Telescope";
+    font-family: "Caveat";
     position: absolute;
     text-align: left;
+    font-size: 40px;
 }
 
 .output--user {
-    top: 160px;
-    left: 450px;
+    top: 135px;
+    left: 560px;
 }
 
 .output--dob {
-    top: 182;
-    left: 450px;
+    top: 178;
+    left: 575px;
 }
 
 .output--place {
-    top: 204px;
-     left: 450px;
+    top: 218px;
+     left: 590px;
 }
 
 .output--type {
-    top: 226px;
-     left: 450px;
+    top: 258px;
+     left: 585px;
 }
 
 .output--sign {
     font-family: "Parisienne";
-    font-size: 20px;
-    top: 328px;
-     left: 400px;
+    font-size: 60px;
+    top: 455px;
+     left: 500px;
 }

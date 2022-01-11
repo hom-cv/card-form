@@ -75,11 +75,6 @@ export default function InputForm() {
                     <button>Create</button>
                 </form>
             </div>
-            <h5 className="output--user">{inputState && cardState.user}</h5>
-            <h5 className="output--dob">{inputState && cardState.dob}</h5>
-            <h5 className="output--place">{inputState && cardState.place}</h5>
-            <h5 className="output--type">{inputState && new Date().toISOString().slice(0, 10)}</h5>
-            <h5 className="output--sign">{inputState && cardState.sign}</h5>
             <div className="card">
                 <img className="card--pic" src={cardState.image} />
                 <div className="card--text">
@@ -108,6 +103,11 @@ export default function InputForm() {
                         <h3 className="signature--label">Signature of Authorized traveller</h3>
                     </div>
                 </div>
+                <h5 className="output--user">{inputState && cardState.user}</h5>
+                <h5 className="output--dob">{inputState && cardState.dob}</h5>
+                <h5 className="output--place">{inputState && cardState.place}</h5>
+                <h5 className="output--type">{inputState && new Date().toISOString().slice(0, 10)}</h5>
+                <h5 className="output--sign">{inputState && cardState.sign}</h5>
         </div>
         </div>
     )
